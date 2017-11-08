@@ -1,4 +1,4 @@
-validates :email, format: { with: /<regular expression>/ }
+@uSER = User.find(params[:id])
 
 # README
 
