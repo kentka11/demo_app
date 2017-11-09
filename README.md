@@ -26,5 +26,9 @@ https://ja.gravatar.com/gravatars/new
 
 
 * Deployment instructions
-
+# couldn't find file 'jquery' with type 'application/javascript'
+上記エラーが出た場合は以下のファイルに以下の行を追加すること
+//= require jquery
+//= require bootstrap
+//= require jquery.ui.all
 * ...
