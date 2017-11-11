@@ -10,8 +10,6 @@ class SessionsController < ApplicationController
       redirect_to user
   	else
   		# エラーメッセージを作成する
-  		# 本当は正しくない実装
-      # 上のコードのままでは、リクエストのフラッシュメッセージが一度表示されると消えずに残る
   		flash.now[:danger] = 'Invalid email/password combination'
   		render 'new'
   	end
