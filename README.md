@@ -1,4 +1,8 @@
-10.1.4 TDDで編集を成功させる
+git push heroku master
+
+https://arcane-ocean-64406.herokuapp.com/ 
+https://git.heroku.com/arcane-ocean-64406.git
+
 
 # README
 
